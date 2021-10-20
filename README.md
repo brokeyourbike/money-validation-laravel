@@ -18,6 +18,20 @@ composer require brokeyourbike/money-validation-laravel
 
 ## Usage
 
+Package uses service container for currencies resolution. You can set it in your `AppServiceProvider`
+
+```php
+use Money\Currencies\ISOCurrencies;
+use Money\Currencies;
+
+public function register()
+{
+    $this->app->singleton(Currencies::class, function () {
+        return new ISOCurrencies();
+    });
+}
+```
+
 ```php
 use Illuminate\Foundation\Http\FormRequest;
 use BrokeYourBike\MoneyValidation\IsValidCurrency;
