@@ -5,8 +5,8 @@
 [![License: MPL-2.0](https://img.shields.io/badge/license-MPL--2.0-purple.svg)](https://github.com/brokeyourbike/money-validation-laravel/blob/main/LICENSE)
 
 [![ci](https://github.com/brokeyourbike/money-validation-laravel/actions/workflows/ci.yml/badge.svg)](https://github.com/brokeyourbike/money-validation-laravel/actions/workflows/ci.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a81b62866be29368ac32/maintainability)](https://codeclimate.com/github/brokeyourbike/money-validation-laravel/maintainability)
 [![codecov](https://codecov.io/gh/brokeyourbike/money-validation-laravel/branch/main/graph/badge.svg?token=ImcgnxzGfc)](https://codecov.io/gh/brokeyourbike/money-validation-laravel)
-[![Type Coverage](https://shepherd.dev/github/brokeyourbike/money-validation-laravel/coverage.svg)](https://shepherd.dev/github/brokeyourbike/money-validation-laravel)
 
 Validation rules for Money and Currency
 
