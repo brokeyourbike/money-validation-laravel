@@ -1,4 +1,4 @@
-name: ci
+name: tests
 
 on:
   push:
@@ -30,8 +30,16 @@ jobs:
     - name: Run PHPUnit
       run: vendor/bin/phpunit --coverage-clover=coverage.xml
 
-    - name: Upload coverage
+    - name: Upload coverage to codecov
       uses: codecov/codecov-action@v2
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         files: ./coverage.xml
+
+    - name: Upload coverage to codeclimate
+      uses: paambaati/codeclimate-action@v3.0.0
+      env:
+        CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_TOKEN }}
+      with:
+        coverageCommand: ''
+        coverageLocations: ./coverage.xml:clover
