@@ -1,5 +1,18 @@
 # Changelog
 
+### [1.0.1](https://www.github.com/brokeyourbike/money-validation-laravel/compare/v1.0.0...v1.0.1) (2022-04-06)
+
+
+### Bug Fixes
+
+* allow to use with laravel 9 ([efeb949](https://www.github.com/brokeyourbike/money-validation-laravel/commit/efeb94954f49ecba52e13ef18e731562af9e5fcb))
+
+
+### Miscellaneous Chores
+
+* add badges ([33b2682](https://www.github.com/brokeyourbike/money-validation-laravel/commit/33b2682288457c1786d3ebfec4ade8d5367d13dd))
+* update badges ([58b2505](https://www.github.com/brokeyourbike/money-validation-laravel/commit/58b250573d4ebfe4c9a0f0d43ff681a7a37117d8))
+
 ## 1.0.0 (2021-10-20)
 
 
