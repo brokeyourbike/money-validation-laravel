@@ -1,0 +1,7 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Parameter \\#1 \\$code of class Money\\\\Currency constructor expects non\\-empty\\-string, mixed given\\.$#"
+			count: 1
+			path: src/IsValidCurrency.php
+
