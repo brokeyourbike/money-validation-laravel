@@ -2,8 +2,6 @@
 
 [![Latest Stable Version](https://img.shields.io/github/v/release/brokeyourbike/money-validation-laravel)](https://github.com/brokeyourbike/money-validation-laravel/releases)
 [![Total Downloads](https://poser.pugx.org/brokeyourbike/money-validation-laravel/downloads)](https://packagist.org/packages/brokeyourbike/money-validation-laravel)
-[![License: MPL-2.0](https://img.shields.io/badge/license-MPL--2.0-purple.svg)](https://github.com/brokeyourbike/money-validation-laravel/blob/main/LICENSE)
-[![tests](https://github.com/brokeyourbike/money-validation-laravel/actions/workflows/tests.yml/badge.svg)](https://github.com/brokeyourbike/money-validation-laravel/actions/workflows/tests.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a81b62866be29368ac32/maintainability)](https://codeclimate.com/github/brokeyourbike/money-validation-laravel/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a81b62866be29368ac32/test_coverage)](https://codeclimate.com/github/brokeyourbike/money-validation-laravel/test_coverage)
 
@@ -52,7 +50,7 @@ class ExampleRequest extends FormRequest
 ```
 
 ## Authors
-- [Ivan Stasiuk](https://github.com/brokeyourbike) | [Twitter](https://twitter.com/brokeyourbike) | [stasi.uk](https://stasi.uk)
+- [Ivan Stasiuk](https://github.com/brokeyourbike) | [Twitter](https://twitter.com/brokeyourbike) | [LinkedIn](https://www.linkedin.com/in/brokeyourbike) | [stasi.uk](https://stasi.uk)
 
 ## License
 [Mozilla Public License v2.0](https://github.com/brokeyourbike/money-validation-laravel/blob/main/LICENSE)
