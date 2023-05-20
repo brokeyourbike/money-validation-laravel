@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.3](https://www.github.com/brokeyourbike/money-validation-laravel/compare/v1.0.2...v1.0.3) (2023-05-20)
+
+
+### Miscellaneous Chores
+
+* button ([50a2aaa](https://www.github.com/brokeyourbike/money-validation-laravel/commit/50a2aaa0d9fc891099ee04d1829158a966882d78))
+
 ### [1.0.2](https://www.github.com/brokeyourbike/money-validation-laravel/compare/v1.0.1...v1.0.2) (2023-05-14)
 
 
